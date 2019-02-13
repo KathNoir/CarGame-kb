@@ -3,13 +3,12 @@ let car = {
     make: 'Tesla',
     model: 'S Refresh',
     color: 'white',
-    milage: 0,
+    mileage: 0,
     isWorking: true,
-
     driveToWork(){
-        alert('Old Mileage: ${this.mileage}');
+        alert( `Old Mileage: ${this.mileage}`);
         this.mileage += 10;
-        alert('New Mileage: ${this.mileage}');
+        alert(`New Mileage: ${this.mileage}`);
     }
 }
 
