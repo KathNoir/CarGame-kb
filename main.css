@@ -1,0 +1,50 @@
+h1,
+h2,
+h3 {
+    text-align: center; 
+    
+}
+h1 {
+    font-size: 72px;
+    margin-top: -10px;
+
+    color: blue; 
+}
+
+body {
+    color: white;
+    background-image: url(http://ontheworldmap.com/usa/usa-road-map.jpg);
+    background-size: 1366px 625px;
+    background-repeat: no-repeat;
+}
+.photo {
+    height: 300px;
+    width: 600px;
+    
+}
+ul {
+    text-align: left;
+    list-style-position: inside;
+    font-size: 36px;
+    margin-top: -40px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    
+    }
+h2 {
+    font-size: 36px;
+    background-color: rgba(0, 0, 255, 0.7);
+}
+h3 {
+    margin-top: -25px;
+}
+html,
+body {
+    overflow:hidden;
+}
+
+
+
+
